@@ -1,0 +1,3 @@
+
+https://laravel.com/docs/9.x/migrations 
+php artisan migrate:fresh --seed

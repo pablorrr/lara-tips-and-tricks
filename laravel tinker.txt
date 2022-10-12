@@ -1,0 +1,5 @@
+1.generowanie hasla
+
+1.php artisan tinker - Hash::make('password')
+2. enter
+3.exit

@@ -1,0 +1,6 @@
+You can add this line to your AppServiceProvider.php boot() method located in app/Providers/ directory.
+public function boot()
+{
+    \Illuminate\Support\Facades\Schema::defaultStringLength(191);
+}
+https://github.com/laravel/framework/issues/24711

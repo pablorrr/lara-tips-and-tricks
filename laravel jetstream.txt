@@ -1,0 +1,18 @@
+instalacja jetstream
+1.https://jetstream.laravel.com/2.x/installation.html
+2. jesli problem z instalacja to zainstalwoac nowa ver npm / node
+https://nodejs.org/en/download/
+3.wczesniej utrowrzyc db i skonfigurowac env
+
+uwaga istnieje mozliwosc indtsalacji  systemem zarzdzania zespolem teams !!! patrz  dokumebtacja
+uwaga nie zapomniec ddoac no koniec vendor publish!!! ptrz dokumenbtacja
+
+diodatkowe info:
+https://www.youtube.com/watch?v=x5uvV9QWsOc
+https://laracasts.com/discuss/channels/laravel/failed-to-load-config-from-viteconfigjs
+
+4. w razie problemmow z dzilanie strony profile
+1. uruchomic homesterad
+2.artisan optimize 
+3 reset  localhost
+4 . przy tworxzeniu usera zapamaietac haslow wprzegldarce

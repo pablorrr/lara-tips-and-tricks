@@ -1,0 +1,38 @@
+1.instalacja 
+2 kofiguracja 
+3. struktura katalogow
+https://laravel.com/docs/9.x/structure
+4.fornt end 
+
+5.zestawy startowe- 
+
+5.1 laravel breeze -
+Laravel Breeze to minimalna, prosta implementacja wszystkich funkcji :
+-uwierzytelniania Laravela ,
+- w tym logowania, 
+-rejestracji,
+- resetowania hasła, 
+-weryfikacji adresu e-mail 
+-i potwierdzania hasła
+
+
+5.2 Laravel Jetstream
+obejmuje logowanie, - fortify
+rejestrację, - fotify
+weryfikację poczty e-mail,-fortify 
+uwierzytelnianie dwuskładnikowe, - fotify oraz sanctum
+zarządzanie sesjami, sanctum
+obsługę API za pośrednictwem Laravel Sanctum i opcjonalne zarządzanie zespołem. 
+uwierztelnianie tokenmi za pomoca sanctum
+https://jetstream.laravel.com/2.x/introduction.html
+
+
+
+
+
+
+
+
+
+
+
