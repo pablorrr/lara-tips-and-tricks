@@ -1,0 +1,15 @@
+1. zainsatlowac x debug  biblioteke dll zgodnie z dokumentacja ze strony download x debug(trzeba wkleic php info i wyrenderowac  wizarda)
+2.zastsowanie sie do wskazowek w php ini
+3.sprawdzic czy w php info jest widoczny x debug
+4.zainstalowac  rozszeerzenie w chrome xdenug
+5. w opcjach tej wtyczki chrome  zanaczyc opcje klucz aphpstor i save
+6.uruchimic webserver
+7.wejsc w dwowlnu plik projektu zaznczyc czerwona kropka  miejsce zatrzymania kodu
+8.uruchomic strone np glowna laravel - kliknac w xdebug na zielono 
+9 kliknac w sluchawke x debug wphp strom 
+10 odswiezyc strone w laravel
+11. powinno dizlac!!
+
+uwaga!!! zadnych dodoatkowych ustawien - upwenic sie ze nie ma dom,yslnenie uruchomionej konfiguracji na  pliku gdziie ma sie zatrzymac kod!!!!
+
+uwaga!!!!! zatrzymywanie kodu nie moze byc przypadkowe!! najprostsze zatrzymanie to na routingu   zatrzymanie widoku welcome!!! inaczej nmie bedzie dzialac!!

@@ -1,0 +1,6 @@
+
+
+https://laravel.com/docs/9.x/configuration
+
+php artisan env:encrypt --key=3UVsEgGVK36XN82KKeyLFMhvosbZN1aF
+php artisan env:decrypt --key=3UVsEgGVK36XN82KKeyLFMhvosbZN1aF

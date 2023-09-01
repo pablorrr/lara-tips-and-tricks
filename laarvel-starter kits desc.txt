@@ -1,0 +1,110 @@
+AUTENTYKACJA
+Laravel Breeze to minimalna, prosta implementacja wszystkich funkcji :
+-uwierzytelniania Laravela ,
+- w tym logowania, 
+-rejestracji,
+- resetowania hasła, 
+-weryfikacji adresu e-mail 
+-i potwierdzania hasła
+
+AUTENTYKACJA
+Laravel Jetstream obejmuje logowanie, - fortify
+rejestrację, - fotify
+weryfikację poczty e-mail,-fortify 
+uwierzytelnianie dwuskładnikowe, - fotify oraz sanctum
+zarządzanie sesjami, sanctum
+obsługę API za pośrednictwem Laravel Sanctum i opcjonalne zarządzanie zespołem. 
+uwierztelnianie tokenmi za pomoca sanctum
+https://jetstream.laravel.com/2.x/introduction.html
+
+SUBSKRYPCJE ROZLICZENIA ABONAMENTY
+Cashier- pisanie apek do subskrypcji, rozliczen
+Spark -https://spark.laravel.com/
+
+DEBUGOWANIE
+Dusk - testowanie aplikacji z poziomu aplikacji w szczegolnosci js czego PHPUnit nie potrafi
+
+DEBUGOWANIE
+Horizon- szczegolowa kontrola kolekowania w laravel
+ szczegolowe wyjasnienie - https://linuxhint.com/laravel_horizon_tutorial/
+
+AUTENTYKACJA
+Fortify - uzywana przez Jetstream - wspiera -
+User Login
+User Registration
+Email Verification
+Forget Password
+Reset Password
+Change Password
+Update User Profile
+
+
+AUTENTYKACJA
+Sanctum - uzywane przez Jetstream - wspiera tworzenie tokenow sluzacych do logowania
+
+PLATFORMA WDROZENIOWA - jest to njprwd aplikcja ulatwiajaca instalacje cms, jakiejs innej aplikacji lub apki opartej na frameworku np laravel. Przykladem moze byc system jako aplikacja wdrozeniowa dla wordpress ktrora juz jest zainstalowana na serwerze. Inaczej Kreator instalacyjny np dla WP na serwerze produkcyjnym. Moga rozniez sluzyc zaerzadzaniem zasobami apki na serwerze np DB
+
+PLATFORMA WDROZENIOWA 
+Vapor- chyba instalator https://vapor.laravel.com/
+
+Forge - menadzer serwerowy -https://forge.laravel.com/
+
+Herd - https://herd.laravel.com/ - njprwd  sewrer lokalny dedykowany dla laravel na mac os
+Herd to niesamowicie szybkie, natywne środowisko programistyczne Laravel i PHP dla systemu macOS. Zawiera wszystko, czego potrzebujesz, aby rozpocząć programowanie w Laravel, w tym PHP i nginx. Po zainstalowaniu Herda możesz rozpocząć programowanie w Laravel.
+
+
+
+DEBUGOWANIE
+Telescope -  Telescope zapewnia wgląd w żądania przychodzące do Twojej aplikacji, wyjątki, wpisy dziennika, zapytania do bazy danych, zadania w kolejce, pocztę, powiadomienia, operacje w pamięci podręcznej, zaplanowane zadania, zrzuty zmiennych i nie tylko.
+
+
+
+AUTENTYKACJA
+
+Social  Lite - wspiera logowanie poprzez serwisy spolecznosciowe
+
+- In addition to typical, form based authentication, Laravel also provides a simple, convenient way to authenticate with OAuth providers using Laravel Socialite. Socialite currently supports authentication via Facebook, Twitter, LinkedIn, Google, GitHub, GitLab, Bitbucket, and Slack.
+
+
+Scout - silnik do wyszukiwarki- przeszukiwanie DB okreslonego Modelu
+https://www.itsolutionstuff.com/post/laravel-scout-algolia-search-exampleexample.html#google_vignette
+
+
+Laravel Prompts - wspiera tworzenie formularzy przy aplikacjach konsolowych 
+
+ is a PHP package for adding beautiful and user-friendly forms to your command-line applications, with browser-like features including placeholder text and validation.
+
+
+Laravel Pint - korektor stylu i formatu kodu PHP
+
+Pennant - specjlany pakiet ktory zawiera wbudowane flagi do testowania metod w aplikacji
+https://redberry.international/laravel-pennant-feature-flagging-made-easy/
+
+ WSPARECIE DLA FrOnT END  JS
+Interia - css, js jak bootstrap na Laravel
+
+Livewire - dziala szybko jak ajax, rozwiazania  wspierajace js na laravel  -https://laravel-livewire.com/
+
+ Livewire is a full-stack framework for Laravel that makes building dynamic interfaces simple, without leaving the comfort of Laravel.
+
+
+
+Nova- gotowy szablon panelu administracyjnego - https://nova.laravel.com/
+
+Octane - njprwd serwer dedykowany dla laravel
+ Laravel Octane to pakiet, który obsługuje aplikacje Laravel z Swoole lub RoadRunner, aby poprawić wydajność. Konwencjonalne aplikacje Laravel są obsługiwane z serwerów WWW, takich jak Apache, Nginx i Lighttpd, które przy każdym żądaniu odradzają pracownika PHP-FPM.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

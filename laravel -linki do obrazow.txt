@@ -1,0 +1,10 @@
+1.tworzenie linkow do obrazkow
+php artisan storage:link - tworzy linki do obrazkow
+nalezy wczeniej okreslic do tego kod
+np.@if ($prospect->profile_image)
+                    <img src="{{ Storage::url($prospect->profile_image) }}" alt="">
+                @else
+                    <img src="/images/user.png" style="max-width: 100%; max-height: 100px;" alt="">
+                @endif
+
+https://laravel.com/docs/9.x/filesystemhttps://youtu.be/376vZ1wNYPA?t=5640

@@ -1,0 +1,33 @@
+https://www.youtube.com/watch?v=PDaGJ397Ing
+https://laravel.com/docs/9.x/sail#main-content
+
+1. strworz dowolny cztsty projekt laravel w dowolny sposob  bez pliku docker-compose.yml
+
+1.1 instalacja  w juz instniaijcych projektach - composer require laravel/sail --dev
+
+2. uruchomienie sail stworzenie docker-compose.yaml oraz vendor - php artisan sail:install
+
+3. uruchomic docker
+
+3.1 uwaga!!! aby zabezpieczyc projekt nalezy zeminic w pliku env haslo do bazy danych zywane prtzy php my admn
+
+4 bash ./vendor/laravel/sail/bin/sail up - tworzenie kontenrow i obrazow  z dockert compose
+
+5. upewnij sie w docker ze wszytskie kontenenrry sda uruchomione!!!
+
+7 bash ./vendor/laravel/sail/bin/sail artisan  - dostep do artisan
+8 bash ./vendor/laravel/sail/bin/sail mysql - dostep do cli mysql 
+
+
+8.1 - \show databases , \show tables - przykladeowe uzycie
+8.2 dostep dp php my admin jak  docker compose  tutaj http://localhost:8080/
+9. logowanie do php my admin - korzytsac z env!!! 
+server - tak jak przy DB HOST (.env!!!)
+user - db username
+password - db password
+
+9.dostep do aplikacji -   http://localhost
+
+
+
+

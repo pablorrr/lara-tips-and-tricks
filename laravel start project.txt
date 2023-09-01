@@ -1,0 +1,22 @@
+
+1. czytsy plain starter
+
+composer create-project laravel/laravel example-app 
+
+composer create-project laravel/laravel lara-chat
+
+// zawsze nanowsza wersja jesli nie okreslisz jej sam
+
+uwaga w/w komenda nie tworzy autentykacji uzyj np laravel breeze
+
+2. breeze starter autentykacjka
+
+composer require laravel/breeze --dev
+
+php artisan breeze:install
+ 
+php artisan migrate
+npm install
+npm run dev
+
+//muszisz najpierw instalowac pakiet startowy punkt 1.

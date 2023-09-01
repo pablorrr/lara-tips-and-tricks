@@ -1,0 +1,23 @@
+
+
+https://www.positronx.io/how-to-properly-install-and-use-bootstrap-in-laravel/
+
+How to Properly Install and Use Bootstrap 5 in Laravel 9
+
+composer create-project laravel/laravel --prefer-dist project-name
+
+cd project-name
+
+composer require laravel/ui
+
+
+php artisan ui bootstrap
+npm install
+npm run dev
+
+php artisan ui bootstrap --auth
+npm install
+npm run dev
+
+
+npm run watch

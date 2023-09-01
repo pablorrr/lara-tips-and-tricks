@@ -1,0 +1,3 @@
+https://stackoverflow.com/questions/26079571/installing-laravel-prefer-dist
+
+objanisnie do  komendy composer : composer create-project laravel/laravel --prefer-dist project-name

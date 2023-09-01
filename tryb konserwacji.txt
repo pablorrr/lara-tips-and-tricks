@@ -1,0 +1,10 @@
+Gdy aplikacja jest w trybie konserwacji, niestandardowy widok będzie wyświetlany dla wszystkich żądań do aplikacji. Ułatwia to „wyłączenie” aplikacji podczas jej aktualizacji lub wykonywania konserwacji. Sprawdzanie trybu konserwacji jest zawarte w domyślnym stosie oprogramowania pośredniego dla aplikacji. Jeśli aplikacja jest w trybie konserwacji, Symfony\Component\HttpKernel\Exception\HttpExceptioninstancja zostanie zgłoszona z kodem stanu 503.
+
+Aby włączyć tryb konserwacji, wykonaj downpolecenie Artisan:
+
+php artisan down
+
+
+
+wylaczyc
+php artisan up

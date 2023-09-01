@@ -1,0 +1,21 @@
+1.https://stackoverflow.com/questions/39934276/laravel-5-2-how-to-update-migration-without-losing-data
+
+
+laravel nie dodaje nowych kolumn w starych plikach migracyjnych a przy laravel migrate:refresh wszytskie wczesniej wprowadzone dane do tabel sa wymazywane!!!
+
+rozwiazanie:
+
+1.php artisan make:migration add_nazwa_kolumny_no_columns_to_nazwa_tabeli_table --table=nazwa_tabeli
+2. utworzy sie nowy plik w migrations
+3. wyedytowac plik idodac nowa kolumne
+4. php artisan migrate
+
+dodatkowe info- dziala na lar 9.0
+
+2. blkowanie  usuwania noiektrouych tabl;e podczas migracji i seedoeania - wejsc w pliki migracji i zakomnetowac metody up and down
+
+
+
+
+
+
